@@ -1065,3 +1065,75 @@ banner-section__slider-img{
 .irs--flat .irs-handle.state_hover>i:first-child, .irs--flat .irs-handle:hover>i:first-child {
     background-color: transparent;
 }
+
+.aside-filter__item-list{
+    margin: 80px 0 40px;
+    border-bottom: 2px solid #C4C4C4;
+}
+.filter__item-list-titles{
+    font-family: 'SFProDisplay-Semibold', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    padding-bottom: 14px;
+}
+
+.filter__item-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter__item-list-select{
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #48494D;
+}
+
+.jq-selectbox__select {
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #48494D;
+    height: 20px;
+    padding: 0 30px 0 10px;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+    text-shadow: none;
+}
+
+.jq-selectbox__trigger-arrow {
+    position: absolute;
+    top: 14px;
+    right: 12px;
+    width: 0;
+    height: 0;
+    border: none;
+}
+
+.jq-selectbox__trigger {
+    background-image: url(../images/arrow-down.svg);
+    bottom: 4px;
+    width: 12px;
+    height: 8px;
+    top: 6px;
+    right: 9px;
+    border-left: none;
+}
+
+.jq-selectbox__select:hover, 
+.jq-selectbox__select:active {
+    background: none;
+    box-shadow: none;
+}
+
+.jq-selectbox.focused .jq-selectbox__select{
+    border: none;
+}
+
+.jq-selectbox li:hover{
+    background: rgba(107, 126, 172, 0.05);
+    color: rgba(0, 0, 0, 0.6);
+}
