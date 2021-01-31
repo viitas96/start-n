@@ -46,4 +46,10 @@ $(function(){
     $(".js-range-slider").ionRangeSlider({
         type: "double",
     });
+
+    $("#rate-yo").rateYo({
+        ratedFill: "#1C62CD",
+        spacing: "7px",
+        normalFill: "#C4C4C4"
+      });
 });
